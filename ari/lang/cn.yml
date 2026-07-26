@@ -1,4 +1,4 @@
-version: 1.1
+version: 1.1.1
 teleport:
   title:
     main: '&e请不要移动...'
@@ -82,6 +82,8 @@ function:
   vanish:
     enable: '&a你已开启全局隐身模式'
     disable: '&e你已经关闭全局隐身模式'
+  gamemode:
+    changed: '&a你的游戏模式已切换为 &6<player_game_mode>'
   unknown: '&c未知指令，请重新输入'
 server:
   time:
